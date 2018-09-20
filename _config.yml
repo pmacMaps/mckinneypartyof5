@@ -10,8 +10,8 @@ title: The McKinney Blog
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Test site for creating a blog using Jekyll.  You have to start somewhere.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://pnmcartodesign.com/mckinney-blog" # the base hostname & protocol for your site
+baseurl: "/mckinney-blog" # the subpath of your site, e.g. /blog
+url: "https://pnmcartodesign.com/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
