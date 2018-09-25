@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Our Story
+description: The story of us.  Let's do this.
 permalink: /our-story/
 ---
 
