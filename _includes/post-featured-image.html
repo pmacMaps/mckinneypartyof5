@@ -1,1 +1,1 @@
-<img class="feat-img" src="{{ site.baseurl }}/assets/images/{{ page.featured-image or post.featured-image }} " alt="{{ page.featured-image-alt or post.featured-image-alt | default: 'this image should have the alt text attribute' }}" />
+<img class="feat-img" src="{{ site.baseurl }}/assets/images/{{ include.image }}" alt="{{ include.alt | default: 'image representing a theme in this article' }}" />
