@@ -10,6 +10,7 @@ permalink: /articles/
         <!-- can we get post image? -->
         <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p>{{ post.date }}</p>
+        {% if post.featured-image %}{% include post-featured-image.html %}{% endif %}
         <!-- loop through post categories or tags? -->
         <div>{{ post.excerpt }}</div>        
     </div>
