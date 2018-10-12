@@ -8,6 +8,7 @@ featured-image: idea-coffee-arcona.jpg
 featured-image-alt: People visiting Idea Coffee food truck in Mechanicsburg, PA
 categories: blogging
 ---
+
 A New Kind of Blog!
 
 Here is some text for a new kind of blog. I really like it because:

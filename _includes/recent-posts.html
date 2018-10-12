@@ -6,12 +6,13 @@
         {% endif %}
         <br />
         <span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span> 
+        <hr />
         <a href="{{ post.url | prepend: site.baseurl }}">
         {% if post.featured-image %}
             {% include post-featured-image.html image=post.featured-image alt=post.featured-image-alt %}
         {% endif %}
         </a>        
         <hr />
-        <p>{{ post.teaser }}</p> 
+        <p>{{ post.excerpt }}</p> 
     </div>
 </div>

@@ -8,6 +8,7 @@ featured-image: idea-coffee-arcona.jpg
 featured-image-alt: People visiting Idea Coffee food truck in Mechanicsburg, PA
 categories: our-story
 ---
+
 Here we share about the past six years!
 
 Here is more content about stuff.
