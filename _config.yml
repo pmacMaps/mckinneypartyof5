@@ -9,7 +9,7 @@
 title: McKinney Party of Five
 author: Patrick & Kara McKinney
 email: your-email@domain.com
-description: We need to update this.
+description: A cool description
 baseurl: "/mckinney-blog" # the subpath of your site, e.g. /blog
 url: "https://pnmcartodesign.com/" # the base hostname & protocol for your site
 
