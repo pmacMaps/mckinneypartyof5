@@ -4,8 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  /*font-family: Verdana,Geneva,sans-serif;*/
+  font-family: 'Scope One', serif;  
   overflow-x: hidden;  
 }
 p {
@@ -43,8 +42,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  text-transform: capitalize;
   font-weight: 700;
 }
 hr.star-light,
@@ -86,35 +85,6 @@ hr {
 .img-centered {
   margin: 0 auto;
 }
-header {
-  text-align: center;
-  background: #18BC9C;
-  color: white;
-}
-header img {
-  display: block;
-  margin: 0 auto 20px;
-}
-header .intro-text .name {
-  display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 2em;
-}
-header .intro-text .skills {
-  font-size: 1.25em;
-  font-weight: 300;
-}
-@media (min-width: 768px) {
- header .intro-text .name {
-    font-size: 4.75em;
-  }
-  header .intro-text .skills {
-    font-size: 1.75em;
-  }
-}
-
 .navbar-custom li a {
     font-size: 1.5em;
 }
@@ -153,7 +123,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle {
   color: white;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 10px;
   border-color: white;
 }
@@ -370,7 +340,7 @@ footer .footer-below {
 
 .navbar-custom {  
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;  
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
   border: none;
 }
@@ -378,10 +348,11 @@ footer .footer-below {
 .navbar-custom .navbar-nav li a,
 .navbar-custom .navbar-brand,
 .social-footer a {
-    -webkit-transition: color 0.3s ease-in-out;
-    -moz-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out;  
+    -webkit-transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
+    border-bottom: solid 2px #6C815E;
 }
 
 .navbar-custom .navbar-brand,
@@ -401,8 +372,7 @@ footer .footer-below {
 
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:focus {
-    border-bottom: solid 2px #000;
-    
+    border-bottom-color: #000;   
 }
 
 /* Links & Buttons */
@@ -810,7 +780,7 @@ body.pf-single .pf-link {
     }
     
     nav a,
-    a.btn-primary {
+    a.btn-primary {       
         text-decoration: none;
     }
     

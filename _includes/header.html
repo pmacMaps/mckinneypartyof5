@@ -1,8 +1,30 @@
-<header class="site-header">  
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    <nav class="site-nav">
-        <a href="{{ site.baseurl }}/our-story">Our Story</a>
-        <a href="{{ site.baseurl }}/articles">Articles</a>
-        <a href="{{ site.baseurl }}/maps">Adventures Mapped</a>
+<header>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1"> 
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">{{ site.title }}</a>
+            </div>
+            <!-- Toggable Nav -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1"> 
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="{{ site.baseurl }}/our-story">Our Story</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}/articles">Articles</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}/maps">Adventures Mapped</a>
+                    </li>                                       
+                </ul>
+            </div>
+                <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
     </nav>
 </header>
