@@ -85,6 +85,9 @@ hr {
 .img-centered {
   margin: 0 auto;
 }
+.navbar-custom li {
+    padding-top: 50px;
+}
 .navbar-custom li a {
     font-size: 1.5em;
 }
@@ -105,7 +108,7 @@ hr {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: #E5DACA;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -129,9 +132,9 @@ hr {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #000;
+  background-color: #373B3D;
   color: white;
-  border-color: #000;
+  border-color: #373B3D;
 }
 .floating-label-form-group {
   position: relative;
@@ -163,10 +166,10 @@ hr {
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 0;
-  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-  -moz-transition: top 0.3s ease,opacity 0.3s ease;
-  -ms-transition: top 0.3s ease,opacity 0.3s ease;
-  transition: top 0.3s ease,opacity 0.3s ease;
+  -webkit-transition: top 0.2s ease,opacity 0.2s ease;
+  -moz-transition: top 0.2s ease,opacity 0.2s ease;
+  -ms-transition: top 0.2s ease,opacity 0.2s ease;
+  transition: top 0.2s ease,opacity 0.2s ease;
 }
 section {
   padding: 100px 0;
@@ -194,7 +197,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 footer {
-  color: white;
+  color: #E5DACA;
 }
 footer h3 {
   margin-bottom: 30px;
@@ -215,7 +218,7 @@ footer .footer-below {
   font-size: 20px;
   border: solid 2px white;
   background: transparent;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   margin-top: 15px;
 }
 .btn-outline:hover,
@@ -335,7 +338,7 @@ fieldset[disabled] .btn-success.active {
 /*** Header & Footer ***/
 .navbar-custom,
 footer .footer-below {
-    background: #6C815E;
+    background: #317873;
 }
 
 .navbar-custom {  
@@ -348,11 +351,10 @@ footer .footer-below {
 .navbar-custom .navbar-nav li a,
 .navbar-custom .navbar-brand,
 .social-footer a {
-    -webkit-transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
-    -moz-transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
-    border-bottom: solid 2px #6C815E;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 .navbar-custom .navbar-brand,
@@ -367,12 +369,12 @@ footer .footer-below {
 /* Social icons in footer */
 .social-footer a:hover,
 .social-footer a:focus {
-    color: #000;
+    color: #C6612E;
 }
 
-.navbar-custom .navbar-nav li a:hover,
-.navbar-custom .navbar-nav li a:focus {
-    border-bottom-color: #000;   
+.navbar-brand img {
+    width: 125px;
+    height: 125px;
 }
 
 /* Links & Buttons */
@@ -382,14 +384,13 @@ button.close {
 
 .btn-primary,
 #emailModal div.modal-footer button.btn.btn-default {
-  color: white;
-  background-color: #6C815E;
-  border-color: #000;
-  font-weight: 700;
-  -webkit-transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
-  -o-transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  color: #E5DACA;
+  background-color: #317873;
+  border-color: #E5DACA;
+  -webkit-transition: background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -moz-transition: background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  -o-transition: background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 
@@ -403,8 +404,8 @@ button.close {
 #emailModal div.modal-footer button.btn.btn-default:hover,
 #emailModal div.modal-footer button.btn.btn-default:focus {
   color: white;
-  background-color: #000;
-  border-color: #000;
+  background-color: #C6612E;
+  border-color: #C6612E;
 }
 
 /* Footer */
@@ -430,7 +431,7 @@ body.portfolio footer hr {
 /* About Me Summary */
 .home-intro {
     margin-top: 100px; 
-    padding-top: 125px;
+    padding-top: 200px;
     padding-bottom: 125px;
     background: url(/assets/images/pexels-photo-129882-transparent.jpeg) no-repeat bottom center fixed; 
     -webkit-background-size: cover;
@@ -739,16 +740,17 @@ body.pf-single .pf-link {
 
 @media screen and (min-width: 769px) {
   .navbar-custom {
+    min-height: 200px;
     padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
+    -webkit-transition: padding 0.2s;
+    -moz-transition: padding 0.2s;
+    transition: padding 0.2s;
   }
   .navbar-custom .navbar-brand {
     font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
   }
   .navbar-custom.affix {
     padding: 10px 0;
