@@ -6,7 +6,7 @@ author: John D
 description: Here is a summary for Blog D
 featured-image: idea-coffee-arcona.jpg
 featured-image-alt: People visiting Idea Coffee food truck in Mechanicsburg, PA
-categories: our-story
+categories: ['Our Story']
 ---
 
 Here we share about the past six years!
