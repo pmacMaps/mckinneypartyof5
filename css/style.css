@@ -26,14 +26,16 @@ hr,.cover-img{
 }
 p{
 	line-height: 1.5em;
-}.landing-area {
+	margin: 1.5em 0;
+}
+.landing-area {
     width: 100%;
     max-width: 1000px;
 	margin: 0 auto;
     padding: 1.5em;    
     color: #000;
     background: #fff;
-    font-size: 1.25em;
+    font-size: 1.10em;
     font-family: Verdana,Geneva,sans-serif;
     text-align: left;
 }
