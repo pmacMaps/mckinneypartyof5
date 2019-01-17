@@ -373,8 +373,8 @@ footer .footer-below {
 }
 
 .navbar-brand img {
-    width: 125px;
-    height: 125px;
+    width: 80px;
+    height: 80px;
 }
 
 /* Links & Buttons */
@@ -430,10 +430,9 @@ body.portfolio footer hr {
 
 /* About Me Summary */
 .home-intro {
-    margin-top: 100px; 
     padding-top: 200px;
     padding-bottom: 125px;
-    background: url(/assets/images/pexels-photo-129882-transparent.jpeg) no-repeat bottom center fixed; 
+	background: url(../assets/images/general/wood-nature-walking-dark.jpg) no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -442,10 +441,6 @@ body.portfolio footer hr {
 
 .home-intro p {
     font-size: 2em;    
-}
-
-.home-intro img {
-   margin-top: -45px;
 }
 
 /* Featured Portfolio Items */
@@ -740,8 +735,7 @@ body.pf-single .pf-link {
 
 @media screen and (min-width: 769px) {
   .navbar-custom {
-    min-height: 200px;
-    padding: 25px 0;
+    padding: 15px 0;
     -webkit-transition: padding 0.2s;
     -moz-transition: padding 0.2s;
     transition: padding 0.2s;
