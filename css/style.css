@@ -499,48 +499,10 @@ body.portfolio footer hr {
 
 
 /*** About Page ***/
-.about-intro {
-    margin-top: 50px;     
+body.about .page-content {
+	padding-top: 200px;
+	padding-bottom: 50px
 }
-
-.about-intro a.btn-primary {
-    margin: 50px auto;
-    font-size: 1.25em;
-}
-
-.about-intro h3 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    text-transform: capitalize;
-}
-
-.about-intro ul,
-.pf-single ul {
-    list-style: square;
-}
-
-.client-list {
-    padding-top: 125px;
-    padding-bottom: 125px;    
-    background: url(/assets/images/herring-cove-beach-sunset-transparent.JPG) no-repeat bottom center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  
-}
-
-.client-list .row {
-    margin: 0 auto;
-}
-
-.client-list h4 {
-    display: inline-block;
-    margin: 15px 10px;
-    padding: 15px;
-    border-radius: 10px;
-    background: #fff;
-}
-
 
 /*** Portfolio Page ***/
 .portfolio-main {
@@ -566,39 +528,6 @@ body.portfolio hr {
 /* Portfolio Groups */
 body.pf-single section {
     margin-top: 50px;
-}
-
-#mapsWeb {
-    margin-top: 125px;
-}
-
-#mapsPrint .portfolio-item h3,
-#mapsWeb .portfolio-item h3 {
-    min-height: 80px;
-}
-
-#customGIS .portfolio-item h3 {
-    min-height: 60px;
-}
-
-#mapsPrint .portfolio-item div.caption p {
-    min-height: 175px;
-}
-
-#mapsPrint .portfolio-item .img-container {
-    min-height: 250px;
-}
-
-#mapsWeb .portfolio-item div.caption p {
-    min-height: 225px;
-}
-
-#customGIS .portfolio-item div.caption p {
-    min-height: 150px;
-}
-
-#webDev .portfolio-item div.caption p {
-    min-height: 150px;
 }
 
 body.pf-single .pf-link {
