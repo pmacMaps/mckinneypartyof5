@@ -499,9 +499,22 @@ body.portfolio footer hr {
 
 
 /*** About Page ***/
-body.about .page-content {
+body.about .page-content,
+body.blog .page-content {
 	padding-top: 200px;
 	padding-bottom: 50px
+}
+
+body.blog div.row {
+	margin: 100px auto;
+}
+
+body.blog div.row:first-child {
+	margin-top: 0;
+}
+
+body.blog div.row:last-child {
+	margin-bottom: 0;
 }
 
 /*** Portfolio Page ***/
