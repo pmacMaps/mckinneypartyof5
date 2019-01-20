@@ -3,6 +3,7 @@ layout: post
 title:  Welcome to Jekyll!
 date:   2018-09-12
 author: Borg Collective
+page: post-single
 description: Here is a summary for Blog C
 featured-image: idea-coffee-arcona.jpg
 featured-image-alt: People visiting Idea Coffee food truck in Mechanicsburg, PA

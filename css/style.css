@@ -500,11 +500,13 @@ body.portfolio footer hr {
 
 /*** About Page ***/
 body.about .page-content,
-body.blog .page-content {
+body.blog .page-content,
+body.post-single {
 	padding-top: 200px;
 	padding-bottom: 50px
 }
 
+/*** Blog Roll ***/
 body.blog div.row {
 	margin: 100px auto;
 }
@@ -515,6 +517,15 @@ body.blog div.row:first-child {
 
 body.blog div.row:last-child {
 	margin-bottom: 0;
+}
+
+body.blog .feat-img {
+	margin-top: 25px;
+}
+
+/*** Post Singles ***/
+body.post-single .feat-img {
+	width: 40%;	
 }
 
 /*** Portfolio Page ***/

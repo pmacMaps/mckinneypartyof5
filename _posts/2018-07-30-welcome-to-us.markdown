@@ -3,6 +3,7 @@ layout: post
 title:  Welcome to Our Party
 date:   2018-07-30
 author: John Adams
+page: post-single
 description: Here is a summary for Blog A
 featured-image: idea-coffee-arcona.jpg
 featured-image-alt: People visiting Idea Coffee food truck in Mechanicsburg, PA
