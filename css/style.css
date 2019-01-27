@@ -5,7 +5,8 @@
  */
 body {
   font-family: 'Scope One', serif;  
-  overflow-x: hidden;  
+  overflow-x: hidden;
+  color: #000;
 }
 p {
     margin-bottom: 20px;
@@ -431,12 +432,12 @@ body.portfolio footer hr {
 /* About Me Summary */
 .home-intro {
     padding-top: 200px;
-    padding-bottom: 125px;
+    padding-bottom: 125px;	
 	background: url(../assets/images/general/wood-nature-walking-dark.jpg) no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
+    background-size: cover;	
 }
 
 .home-intro p {
@@ -581,7 +582,7 @@ body.pf-single .pf-link {
     .home-intro {
         margin-top: 50px;
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 50px;		
     }
     
     .home-intro img,
