@@ -525,6 +525,11 @@ body.blog .feat-img {
 	margin-top: 25px;
 }
 
+/*** Post Listings ***/
+span.post-category span:last-child {
+	display: none;
+}
+
 /*** Post Singles ***/
 body.post-single .feat-img {
 	width: 40%;	
