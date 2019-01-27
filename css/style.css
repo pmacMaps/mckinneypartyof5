@@ -501,7 +501,8 @@ body.portfolio footer hr {
 /*** About Page ***/
 body.about .page-content,
 body.blog .page-content,
-body.post-single {
+body.post-single,
+body.archive {
 	padding-top: 200px;
 	padding-bottom: 50px
 }

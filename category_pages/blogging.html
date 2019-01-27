@@ -1,0 +1,36 @@
+---
+layout: page
+title: Blogging Category Archives
+page: archive
+description: A listing of blog posts for the Blogging category
+permalink: /category/blogging
+---
+
+{% for post in site.posts %}
+	{% for category in post.categories %}
+		{% if category == 'blogging' %}
+			<div class="row">
+				<div class="col-md-3">
+					{% if post.featured-image %}
+						{% include post-featured-image.html image=post.featured-image alt=post.featured-image-alt %}
+					{% endif %}        	   
+				</div>
+				<div class="col-md-9">
+					<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+					 {% if post.author %} 
+						By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>
+					{% endif %}
+					<br />
+					<span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>       
+					{% if post.categories %}
+						<br />
+						<span class="post-meta text-capitalize">Category: {{ post.categories | join: ", " }}</span>
+					{% endif %}
+					<div>
+						{{ post.excerpt }}
+					</div>
+				</div>
+			</div>
+		{% endif %}
+	{% endfor %}
+{% endfor %}    
