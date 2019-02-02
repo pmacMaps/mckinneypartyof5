@@ -8,6 +8,7 @@ description: Here is a summary for Blog B
 featured-image: idea-coffee-arcona.jpg
 featured-image-alt: People visiting Idea Coffee food truck in Mechanicsburg, PA
 categories: ['blogging', 'lifestyle']
+comments: true
 ---
 
 A New Kind of Blog!
