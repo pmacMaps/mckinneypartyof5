@@ -508,6 +508,11 @@ body.archive {
 	padding-bottom: 50px
 }
 
+div.page-content img.img-responsive {
+	width: 50%;
+	margin: 0 auto;	
+}
+
 /*** Blog Roll ***/
 body.blog div.row {
 	margin: 100px auto;
