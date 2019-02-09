@@ -508,18 +508,25 @@ body.archive {
 	padding-bottom: 50px
 }
 
-div.page-content img.img-responsive {
+body.about div.page-content img.img-responsive {
 	width: 50%;
 	margin: 0 auto;	
 }
 
 /*** Blog Roll ***/
-body.blog div.row {
+body.blog div.page-content div.row,
+body.archive div.page-content div.row {
 	margin: 100px auto;
 }
 
-body.blog div.row:first-child {
+body.blog div.page-content div.row:first-child,
+body.archive div.page-content div.row:first-child {
 	margin-top: 0;
+}
+
+body.blog div.page-content div.row:last-child,
+body.archive div.page-content div.row:last-child {
+	margin-bottom: 0;
 }
 
 body.blog div.row:last-child {

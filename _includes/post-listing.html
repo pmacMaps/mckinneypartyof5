@@ -7,12 +7,13 @@
 	<div class="col-md-9">
 		<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 		{% if post.author %} 
-			By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>
+			By: <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>
         {% endif %}
 		<br />
-		<span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>       
+		<span class="post-meta">Posted on: {{ post.date | date: "%b %-d, %Y" }}</span>
+		<br />
 		{% include post-category-links.html %}
-		<div>
+		<div class="post-excerpt">
 			{{ post.excerpt }}
 		</div>
 	</div>

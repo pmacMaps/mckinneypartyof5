@@ -1,5 +1,4 @@
 {% if post.categories %}
-	<br />
 	<span class="post-meta post-category text-capitalize">Category:			
 		{% for category in post.categories %}
 			<a href="{{ site.baseurl }}/category/{{ category }}">{{ category }}</a><span>,</span>
