@@ -581,128 +581,31 @@ body.pf-single .pf-link {
 }
 
 @media screen and (max-width:768px) {
-    .navbar-brand {
-        font-size: 2em;
-    }    
-    
-  section,
-  #home-portfolio,
-  .client-list {
-    padding: 75px 0;
-  }
-  
-    section.first {
-    padding-top: 75px;
-  }
-    
-    /* Home Page */
-    .home-intro {
-        margin-top: 50px;
-        padding-top: 50px;
-        padding-bottom: 50px;		
-    }
-    
-    .home-intro img,
-    .about-intro img {
-        max-width: 80%;
-        margin: 0 auto;
-    }
-    
-    .home-intro p {
-        margin-top: 30px;
-        font-size: 1.75em;
-    }
-     
-    .feat-posts .col-md-4,
-    #home-portfolio .portfolio-item,
-    body.portfolio .portfolio-item {
-        margin-bottom: 50px;
-    }
-    
-    .feat-posts .col-md-4:last-child,
-    #home-portfolio .portfolio-item:last-child,
-    body.portfolio .portfolio-item:last-child {
-        margin-bottom: 0;
-    }
-    
-    #home-portfolio {
-        margin-top: 0;
-    }
-    
-    .portfolio-item a.btn-primary {
-        margin-top: 30px;
-    }
-    
-    .social-footer .fa {
-        font-size: 4em;
-    }
-    
-    /* About */
-    .about-intro {
-        margin-top: 15px;
-    }
-    
-    .about-intro p {
-        margin-top: 20px;
-    }
-    
-    .about-intro a.btn-primary {
-        margin: 25px 0;
-    }
-    
-    .about-intro li {
-        margin-top: 15px;
-    }
-    
-    .client-list {
-        text-align: center;
-    }
-    
-    .client-list h2 {
-        font-size: 2.5em;
-    }
-    
-    /* Portfolio */
-    body.pf-single section {
-        margin-top: 0;
-    }
-    
-    body.portfolio .feat-portfolio {
-        padding: 25px 0;
-    }
-    
-    #mapsWeb {
-        margin-top: 60px;
-        padding: 25px 0;
-    }
-    
-    body.portfolio h2 {
-        font-size: 2em;
-    }
-    
-    body.portfolio h3 {
-        font-size: 1.5em;
-    }
-    
-    #mapsPrint .portfolio-item .img-container {
-        min-height: 0;
-    }
+	/*.feat-posts .thumbnail*/
+	body.home .feat-posts .container .row .col-md-4 {
+		margin: 125px 0px;
+	}
+	
+	body.home .feat-posts .container .row .col-md-4:first-child {
+		margin-top: 0px;
+	}
+	
+	body.home .feat-posts .container .row .col-md-4:last-child {
+		margin-bottom: 0px;
+	}
+	
+	body.about div.page-content img.img-responsive,
+	body.post-single .feat-img {
+		width: 100%;
+	}
+	
 }
 
 /* Media Queries */
 @media screen and (max-width:600px) {
-    .navbar-brand {
-        font-size: 1.25em;
-    }
-    
-    .navbar-custom li a {
-        font-size: 1.05em;
-    }
-    
-    body.pf-single .pf-link,
-    .portfolio-item a.btn-primary {
-        width: 100%;
-    }
+    body.home .feat-posts .container .row .col-md-4 {
+		margin: 75px 0px;
+	}
 }
 
 @media screen and (min-width: 769px) {
@@ -727,19 +630,6 @@ body.pf-single .pf-link {
   .navbar-custom .navbar-toggle {
         font-size: 2em;
     }
-}
-
-@media screen and (max-width: 991px) {
-    #mapsWeb .portfolio-item div.caption p,
-    #customGIS .portfolio-item div.caption p,
-    #mapsPrint .portfolio-item div.caption p,
-    #webDev .portfolio-item div.caption p,    
-    .feat-portfolio .thumbnail,
-    #mapsPrint .portfolio-item h3,
-    #customGIS .portfolio-item h3,
-    #mapsWeb .portfolio-item h3 {
-        min-height: 0;
-    }    
 }
 
 @media screen and (max-width: 1024px) {
