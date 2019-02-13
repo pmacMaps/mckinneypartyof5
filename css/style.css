@@ -375,7 +375,7 @@ footer .footer-below {
 
 .navbar-brand img {
     width: 80px;
-    height: 80px;
+    height: 80px;	
 }
 
 /* Links & Buttons */
@@ -581,6 +581,26 @@ body.pf-single .pf-link {
 }
 
 @media screen and (max-width:768px) {
+	#mainNav {
+		padding: 25px 0;
+	}
+	
+	.navbar-brand img {
+    	width: 50px;
+    	height: 50px;
+		margin-top: -10px;
+	}
+	
+	.navbar-custom .navbar-toggle {
+		font-size: 1.5em;
+	}
+	
+	.navbar-custom li {
+		padding-top: 0px;
+		margin: 10px 0;
+		text-align: right;
+	}
+	
 	/*.feat-posts .thumbnail*/
 	body.home .feat-posts .container .row .col-md-4 {
 		margin: 125px 0px;
@@ -597,6 +617,13 @@ body.pf-single .pf-link {
 	body.about div.page-content img.img-responsive,
 	body.post-single .feat-img {
 		width: 100%;
+	}
+	
+	body.about .page-content,
+	body.blog .page-content,
+	body.post-single,
+	body.archive {
+		padding-top: 150px;
 	}
 	
 }
