@@ -29,14 +29,6 @@ a {
   color: #0645AD;
   outline: none;
 }
-a:hover,
-a:focus,
-a:active,
-a.active,
-button.close:hover,
-button.close:focus {
-    color: #006400;
-}
 h1,
 h2,
 h3,
@@ -369,8 +361,11 @@ footer .footer-below {
 .navbar-custom .navbar-nav li a:focus,
 /* Social icons in footer */
 .social-footer a:hover,
-.social-footer a:focus {
-    color: #C6612E;
+.social-footer a:focus,
+footer a,
+footer a:hover,
+footer a:focus {
+    color: #FDFD3A;
 }
 
 .navbar-brand img {
