@@ -10,7 +10,7 @@ body {
   line-height: 1.5;
 }
 p {
-    margin-bottom: 20px;
+    margin: 20px 0px;
 }
 p,
 ul,
@@ -169,7 +169,7 @@ section {
   padding: 50px 0;
 }
 section h2 {
-  margin: 0;
+  margin: 50px 0;
   font-size: 3em;
 }
 section.success {
@@ -438,60 +438,19 @@ body.portfolio footer hr {
     font-size: 2em;    
 }
 
-/* Featured Portfolio Items */
-#home-portfolio {
-    padding-top: 125px;
-    padding-bottom: 125px;
-    background: url(/assets/images/skyline-buildings-new-york-skyscrapers-transparent.jpg) no-repeat bottom center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;   
-}
-
-.feat-portfolio h2,
-.prof-services h2,
-.feat-posts h2,
-.client-list h2 {
-    margin-bottom: 50px;
-}
-
-.feat-portfolio .thumbnail {
-    min-height: 650px;      
-}
-
-.feat-portfolio .thumbnail,
-.prof-services .thumbnail,
+/* Featured Posts on Homepage */
 .feat-posts .thumbnail {
-    padding: 25px;   
+    min-height: 600px; 
+	border-color: #555;
 }
 
-.feat-portfolio .thumbnail h3,
-.feat-portfolio .thumbnail img,
-.prof-services h3,
-.prof-services i {
-    margin-bottom: 25px;
-}
-
-.portfolio-item a.btn-primary {
-    font-size: 1.25em;
-    width: 150px;
-}
-
-/* Featured Posts */
-.feat-posts .thumbnail {
-    min-height: 600px;   
-}
-
-.feat-posts .thumbnail,
-.feat-portfolio .thumbnail {
-    border-color: #555;
+.feat-posts .thumbnail h3 {
+    text-align: center;
 }
 
 .feat-posts .thumbnail hr {
     border-top-color: #555;
 }
-
 
 /*** About Page ***/
 body.about .page-content,
@@ -528,10 +487,13 @@ body.blog div.row:last-child {
 }
 
 body.blog .feat-img,
-body.archive .feat-img{
-	margin-top: 25px;
-	margin-left: auto;
-	margin-right: auto;
+body.archive .feat-img,
+body.home .feat-img {
+	margin: 25px 0;	
+}
+
+body.blog .feat-img,
+body.archive .feat-img {
 	width: 50%;
 }
 
@@ -579,6 +541,10 @@ body.pf-single .pf-link {
 }
 
 @media screen and (max-width:768px) {
+	body.home h1 {
+		text-align: center;
+	}
+	
 	.page-content p {
 		margin: 25px 0;
 	}	

@@ -1,18 +1,16 @@
 <div>
-	<h3 class="text-center"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+	<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+	{% if post.featured-image %}
+		<a href="{{ post.url | prepend: site.baseurl }}">
+			{% include post-featured-image.html image=post.featured-image alt=post.featured-image-alt %}
+		</a> 
+	{% endif %}
 	<span class="post-meta">Posted on: {{ post.date | date: "%b %-d, %Y" }}</span>
 	{% if post.author %} 
 		<br />By: <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>
 	{% endif %}
 	<br />                
-	{% include post-category-links.html %}
-	<hr />
-	<a href="{{ post.url | prepend: site.baseurl }}">
-	{% if post.featured-image %}
-		{% include post-featured-image.html image=post.featured-image alt=post.featured-image-alt %}
-	{% endif %}
-	</a>        
-	<hr />
+	{% include post-category-links.html %}	
 	<div class="post-excerpt">
 		{{ post.excerpt }}
 	</div>
