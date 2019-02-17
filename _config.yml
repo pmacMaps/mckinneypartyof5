@@ -12,6 +12,7 @@ email: your-email@domain.com
 description: A cool description
 baseurl: "/mckinney-blog" # the subpath of your site, e.g. /blog
 url: "https://pnmcartodesign.com/" # the base hostname & protocol for your site
+permalink: /:year/:month/:title
 
 # Build settings
 markdown: kramdown
