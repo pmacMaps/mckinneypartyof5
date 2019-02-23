@@ -486,15 +486,25 @@ body.blog div.row:last-child {
 	margin-bottom: 0;
 }
 
+body.archive .page-content h3,
+body.blog .page-content h3 {
+	font-size: 2.5em;
+}
+
+body.archive .page-content .post-meta,
+body.blog .page-content .post-meta {
+	font-size: 1.15em;
+}
+
 body.blog .feat-img,
 body.archive .feat-img,
 body.home .feat-img {
-	margin: 25px 0;	
+	margin: 25px auto;	
 }
 
 body.blog .feat-img,
 body.archive .feat-img {
-	width: 50%;
+	width: 60%;
 }
 
 /*** Post Listings ***/
@@ -677,4 +687,12 @@ body.pf-single .pf-link {
     .collapse.in{
         display:block !important;
     }
+}
+
+@media screen and (min-width: 1025px) {
+	body.archive .page-content .container,
+	body.blog .page-content .container {
+		width: 800px;
+		margin: 0 auto;	
+	}
 }
