@@ -298,18 +298,21 @@ body.blog .page-content h3 {
 }
 
 body.archive .page-content .post-meta,
-body.blog .page-content .post-meta {
+body.blog .page-content .post-meta,
+body.post-single .post-meta {
 	font-size: 1.15em;
 }
 
 body.blog .feat-img,
 body.archive .feat-img,
-body.home .feat-img {
+body.home .feat-img,
+body.post-single .feat-img {
 	margin: 25px auto;	
 }
 
 body.blog .feat-img,
-body.archive .feat-img {
+body.archive .feat-img,
+body.post-single .feat-img {
 	width: 60%;
 }
 
@@ -318,17 +321,13 @@ span.post-category span:last-child {
 	display: none;
 }
 
-/*** Post Singles ***/
-body.post-single .feat-img {
-	width: 40%;	
+/*** Post Single ***/
+body.post-single h1 {
+	font-size: 3em;
 }
 
-/*** Portfolio Page ***/
-.portfolio-main {
-    /*min-height: 700px;*/
-    margin-top: 50px;
-    padding-top: 100px;
-    padding-bottom: 75px;
+body.post-single .post-content {
+	margin: 100px 0;
 }
 
 /*** Media Queries ***/
@@ -395,6 +394,10 @@ body.post-single .feat-img {
 	body.archive .feat-img {
 		width: 100%;
 	}
+	
+	body.post-single .post-content {
+	margin: 50px 0;
+}
 	
 }
 
@@ -481,7 +484,8 @@ body.post-single .feat-img {
 
 @media screen and (min-width: 1025px) {	
 	body.archive .page-content .container,
-	body.blog .page-content .container {
+	body.blog .page-content .container,
+	body.post-single .page-content .container {
 		width: 800px;
 		margin: 0 auto;	
 	}

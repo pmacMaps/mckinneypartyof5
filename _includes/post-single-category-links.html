@@ -1,0 +1,7 @@
+{% if page.categories %}
+	<span class="post-category text-capitalize">Category:			
+		{% for category in page.categories %}
+			<a href="{{ site.baseurl }}/category/{{ category }}">{{ category }}</a><span>,</span>
+		{% endfor %}
+	</span>
+{% endif %}
