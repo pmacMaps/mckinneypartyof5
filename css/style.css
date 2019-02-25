@@ -9,9 +9,7 @@ body {
   color: #000;
   line-height: 1.5;
 }
-p,
-ul,
-ol {
+p {
   font-size: 1.35em;
 }
 li {
