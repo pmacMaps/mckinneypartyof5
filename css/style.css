@@ -256,11 +256,10 @@ button.close {
     border-top-color: #555;
 }
 
-/*** About Page ***/
 body.about .page-content,
 body.blog .page-content,
-body.post-single,
-body.archive {
+body.post-single .page-content,
+body.archive .page-content {
 	padding-top: 200px;
 	padding-bottom: 50px
 }
