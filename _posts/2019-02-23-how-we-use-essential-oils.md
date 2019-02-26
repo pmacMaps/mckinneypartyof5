@@ -7,7 +7,7 @@ page: post-single
 description: Different ways to use essential oils around the house for your family.
 featured-image: essential-oils-table.jpeg
 featured-image-alt: a cup of essential oils on a table with flowers
-categories: ['Parenting']
+categories: ['parenting']
 comments: true
 ---
 

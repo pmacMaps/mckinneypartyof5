@@ -1,0 +1,17 @@
+---
+layout: page
+title: Social Work Category Archives
+page: archive
+description: A listing of blog posts for the Social Work Category
+permalink: /category/social-work
+---
+
+<h1 class="text-center">Articles posted under Social Work</h1>
+
+{% for post in site.posts %}
+	{% for category in post.categories %}
+		{% if category == 'social work' %}
+			{% include post-listing.html %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}    

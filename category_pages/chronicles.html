@@ -1,0 +1,17 @@
+---
+layout: page
+title: Chronicles Category Archives
+page: archive
+description: A listing of blog posts for the Chronicles Category
+permalink: /category/adventures
+---
+
+<h1 class="text-center">Articles posted under Chronicles</h1>
+
+{% for post in site.posts %}
+	{% for category in post.categories %}
+		{% if category == 'chronicles' %}
+			{% include post-listing.html %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}    

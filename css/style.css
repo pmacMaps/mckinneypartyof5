@@ -10,7 +10,7 @@ body {
   line-height: 1.5;
 }
 p {
-  font-size: 1.35em;
+  font-size: 1.25em;
 }
 li {
     margin-bottom: 10px;
@@ -40,7 +40,9 @@ hr {
     border-top-color: #999;
 }
 .navbar-custom li {
-    padding-top: 50px;
+	margin-left: 25px;
+    padding-top: 25px;
+	font-size: 1.5em;
 }
 .navbar-custom li a {
     font-size: 1.5em;
@@ -59,7 +61,7 @@ hr {
   color: white;
 }
 .navbar-custom .navbar-nav {
-  letter-spacing: 1px;
+  letter-spacing: 1px;  
 }
 .navbar-custom .navbar-nav li a {
   color: #E5DACA;
@@ -246,6 +248,7 @@ button.close {
 .feat-posts .thumbnail {
     min-height: 600px; 
 	border-color: #555;
+	padding: 15px;
 }
 
 .feat-posts .thumbnail h3 {
@@ -303,7 +306,8 @@ body.post-single .post-meta {
 body.blog .feat-img,
 body.archive .feat-img,
 body.home .feat-img,
-body.post-single .feat-img {
+body.post-single .feat-img,
+body.post-single .page-content img {
 	margin: 25px auto;	
 }
 
