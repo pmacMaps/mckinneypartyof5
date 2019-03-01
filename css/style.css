@@ -175,6 +175,11 @@ footer .footer-below {
     margin: 20px 0px;
 }
 
+.white-bg {
+	background-color: #fff;
+	padding: 15px;
+}
+
 /*** Header & Footer ***/
 .navbar-custom,
 footer .footer-below {
@@ -229,7 +234,7 @@ button.close {
 .home-intro {
     padding-top: 250px;
     padding-bottom: 125px;	
-	background: url(../assets/images/general/wood-nature-walking-dark-overlay-reduced-ver-1.jpg) no-repeat bottom center fixed; 
+	background: url(../assets/images/general/watercolor-stamen-map.jpeg) top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -353,10 +358,6 @@ body.page-not-found .page-content img {
 @media screen and (max-width:768px) {
 	#mainNav {
 		padding: 15px 0;
-	}
-	
-	body.home h1 {
-		text-align: center;
 	}
 	
 	.page-content p {
@@ -501,11 +502,21 @@ body.page-not-found .page-content img {
 	.home-intro {
 		padding-top: 175px;
 	}
+	
+	.home-intro img {
+		margin-bottom: 25px;
+	}
 }
 
 @media screen and (min-width: 992px) {
 	.home-intro h1 {
 		margin-top: -5px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.home-intro {
+		background-attachment: scroll;
 	}
 }
 
@@ -516,5 +527,5 @@ body.page-not-found .page-content img {
 	body.page-not-found .page-content .container {
 		width: 800px;
 		margin: 0 auto;	
-	}
+	}	
 }
