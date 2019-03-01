@@ -392,9 +392,9 @@ body.page-not-found .page-content img {
 	
 	body.about .page-content,
 	body.blog .page-content,
-	body.post-single,
-	body.archive {
-		padding-top: 150px;
+	body.post-single .page-content,
+	body.archive .page-content {
+		padding-top: 125px;
 	}
 	
 	body.blog div.page-content div.row,
@@ -495,6 +495,18 @@ body.page-not-found .page-content img {
     .collapse.in{
         display:block !important;
     }	
+}
+
+@media screen and (max-width: 991px) {
+	.home-intro {
+		padding-top: 175px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.home-intro h1 {
+		margin-top: -5px;
+	}
 }
 
 @media screen and (min-width: 1025px) {	
