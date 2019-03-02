@@ -3,7 +3,7 @@ layout: page
 title: Our Story
 page: about
 author: Kara and Patrick McKinney
-description: The story of how Patrick and Kara McKinney met.  We hope to share parts of our lives with you on McKinney Party of Five.
+description: The story of how Patrick and Kara McKinney met.  We hope to share parts of our lives with you on McKinney Party of 5.
 permalink: /our-story/
 ---
 

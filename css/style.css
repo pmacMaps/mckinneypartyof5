@@ -268,7 +268,8 @@ body.about .page-content,
 body.blog .page-content,
 body.post-single .page-content,
 body.archive .page-content,
-body.page-not-found .page-content {
+body.page-not-found .page-content,
+body.comment-policy .page-content {
 	padding-top: 200px;
 	padding-bottom: 50px
 }
@@ -394,7 +395,8 @@ body.page-not-found .page-content img {
 	body.about .page-content,
 	body.blog .page-content,
 	body.post-single .page-content,
-	body.archive .page-content {
+	body.archive .page-content,
+	body.comment-policy .page-content {
 		padding-top: 125px;
 	}
 	
@@ -524,7 +526,8 @@ body.page-not-found .page-content img {
 	body.archive .page-content .container,
 	body.blog .page-content .container,
 	body.post-single .page-content .container,
-	body.page-not-found .page-content .container {
+	body.page-not-found .page-content .container,
+	body.comment-policy .page-content .container {
 		width: 800px;
 		margin: 0 auto;	
 	}	
