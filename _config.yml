@@ -9,7 +9,7 @@
 title: McKinney Party of 5
 author: Patrick & Kara McKinney
 email: mckinneypartyof5blog@gmail.com
-description: The writings of Patrick & Kara McKinney. 
+description: We write blogs on all kinds of topics. From the adventures we take, to the things we are digging right now. From challenges we choose to take on, to the struggles we cannot control. We hope you find inspiration, camaraderie or just some laughs along the way.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mckinneypartyof5.life/" # the base hostname & protocol for your site
 permalink: /:year/:month/:title
