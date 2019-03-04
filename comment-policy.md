@@ -15,4 +15,6 @@ One of our values is open-mindedness.  We welcome viewpoints from all perspectiv
 
 We reserve the right to remove comments we find offensive, hurtful, or otherwise contrary to the goals of this site.  We also reserve the right to block users from commenting on this site.
 
-Revised 3/2/2019.
+We use Disqus to power comments on this site.  For questions regarding supported web browsers, please see the official [Disqus support](https://help.disqus.com/commenting/which-browsers-does-disqus-work-with) page.
+
+Revised 3/4/2019.
