@@ -1,0 +1,17 @@
+---
+layout: page
+title: Spirituality Category Archives
+page: archive
+description: A listing of blog posts for the Spirituality category
+permalink: /category/spirituality
+---
+
+<h1 class="text-center">Articles posted under Spirituality</h1>
+
+{% for post in site.posts %}
+	{% for category in post.categories %}
+		{% if category == 'spirituality' %}
+			{% include post-listing.html %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}    

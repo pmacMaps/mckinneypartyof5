@@ -1,0 +1,30 @@
+<footer class="text-center">
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>&copy; Copyright 2019 - McKinney Party of 5</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Powered by <a href="https://jekyllrb.com/">Jekyll</a> | Hosted on <a href="https://github.com/">GitHub</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% if page.comments %}
+	<script>
+		var disqus_config = function () {
+			this.page.url = "https://mckinneypartyof5.life{{ page.url }}";  
+			this.page.identifier = "{{ page.id }}"; 
+		};
+		(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = 'https://mckinneypartyof5.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());			
+			d.body.appendChild(s);
+		})();
+	</script>
+{% endif %}
