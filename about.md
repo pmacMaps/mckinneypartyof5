@@ -11,7 +11,7 @@ Our story starts in the fall of 2005 when Patrick and Kara met at Millersville U
 
 We were friends throughout college, hanging out here and there, but never getting to know each other on a deep level. Years continued to pass. After graduating in 2007, Patrick moved back home with his family to western Pennsylvania.  Kara graduated college in 2009, and started her Master’s in Social Work.  Patrick also started graduate school at the same time, but studying Geography many miles away.  Both Kara and Patrick were slated to graduate with their Masters degrees in May 2011.
 
-{% include insert-image.html url="../assets/images/general/white-rocks.jpg" description="The McKinney family hiking at White Rocks" %}
+{% include insert-image.html url="../assets/images/general/mckinneys-blairsville-2018.jpg" description="The McKinney family visiting Blairsville" %}
 
 A new chapter in our story began at a New Year’s party with college friends to ring in 2011.  This was a time of reconnecting for us.  After long discussions in car rides and on the phone, Kara learned that Patrick would be moving back to Lancaster after graduation. 
 

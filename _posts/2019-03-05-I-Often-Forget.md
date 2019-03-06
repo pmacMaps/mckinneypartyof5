@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title:  I Often Forget
-date:   2019-03-06
+date:   2019-03-05
 author: Kara McKinney
 page: post-single
 description: Remembering that life goes by quickly, can be challenging in the heat of the moment, but being present is all we have.
