@@ -17,7 +17,7 @@ Not another essential oils promotion, you might be thinking. Well this really is
 
 My husband and I fully believe in modern medicine and use it in our house often. I’m well aware of the polarizing viewpoints on these topics so before we move on let’s just agree that we all love our children and are doing the best we can for them.
 
-{% include insert-image.html url="../../assets/images/blog/essential-oils-table.jpeg" description="a cup of essential oils on a table with flowers" %} 
+{% include insert-image-post.html url="./assets/images/blog/essential-oils-table.jpeg" description="a cup of essential oils on a table with flowers" %} 
 
 This being said we also love essential oils. We use them in our laundry, in diffusers around the house, and but them on our body for various reasons. Here is a list of oils we love and how we use them most.
 
