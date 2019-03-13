@@ -2,7 +2,7 @@
 layout: post
 title: Visiting Tiny Estates
 date: 2019-03-13
-author: Patrick McKinney
+author: Patrick & Kara McKinney
 page: post-single
 description: We share our visit to Tiny Estates in Lancaster County, Pennsylvania
 featured-image: pk-low-country.jpg
@@ -19,7 +19,7 @@ We had originally planned to stay in a tiny house in Ronks, PA, in June of 2017,
 
 As Lancaster City is near Elizabethtown, we decided we would visit our favorite city during the trip.  We have always loved visiting, walking around, and exploring Lancaster.  It’s a pretty important part of our story.  We now joke that it is good we don’t live in Lancaster City because we aren’t rich enough to enjoy it all the time
 
-Check in was at 3:00pm, so we could take our time visiting Lancaster.  We started the morning visiting friends in Lititz, which happens to be a cool little town north of Lancaster City.  We grabbed a late lunch at our favorite pizza joint called the Fridge im I say more? Also several fridges full of craft beers, which we chose not to partake of this time. 
+Check in was at 3:00pm, so we could take our time visiting Lancaster.  We started the morning visiting friends in Lititz, which happens to be a cool little town north of Lancaster City.  We grabbed a late lunch at our favorite pizza joint called the Fridge.  The Fridge has several fridges full of craft beers, which we chose not to partake of this time. 
 
 {% include insert-image-post.html url="/assets/images/blog/lititz-springs-park.JPG" description="a playground at Lititz Springs Park" %}
 
