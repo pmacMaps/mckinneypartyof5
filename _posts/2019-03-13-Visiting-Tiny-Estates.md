@@ -13,7 +13,7 @@ comments: true
 
 We are super excited to tell you about our stay at [Tiny Estates](https://tiny-estates.com/) in Elizabethtown, Pennsylvania. Not only were we pumped to stay in a tiny house for the first time, we also are thankful that a place like Tiny Estates is so close to us and on the east coast. 
 
-We had originally planned to stay in a tiny house in Ronks, PA, in June of 2017, but our plans were thwarted when my daughter came a few weeks earlier than expected. This didn’t change our desire to stay in a tiny house however.  In early spring 2018, we decided we would give the tiny house in Ronks another try.  Unfortunately,  staying here was no longer an option.  We think we discovered Tiny Estates through a suggested post on a social media feed.  We were super excited to learn about a tiny house community so close to home.   Patrick had been thinking about buying some music gear with his birthday money, but decided to book a night at Tiny Estates instead.
+We had originally planned to stay in a tiny house in Ronks, PA, in June of 2017, but our plans were thwarted when our daughter came a few weeks earlier than expected. This didn’t change our desire to stay in a tiny house however.  In early spring 2018, we decided we would give the tiny house in Ronks another try.  Unfortunately,  staying here was no longer an option.  We think we discovered Tiny Estates through a suggested post on a social media feed.  We were super excited to learn about a tiny house community so close to home.   Patrick had been thinking about buying some music gear with his birthday money, but decided to book a night at Tiny Estates instead.
 
 {% include insert-image-post.html url="/assets/images/blog/tiny-estates-sign.JPG" description="a building with a sign for Tiny Estates" %}
 
@@ -31,7 +31,7 @@ With our Saturday well underway, we finally headed over to Elizabethtown to chec
 
 There is a great diversity of tiny houses here, both in size and design.  We stayed in the Low Country, which is one of the largest homes at Tiny Estates.  The house is built on a three-axle gooseneck trailer.  There was a small porch at the front door.  When you go inside, you’re in the kitchen and living area.  
 
-This kitchen boasted a refrigerator, a propane oven with four ranges, and plenty of cabinet space.  The living area included a couch that can convert into a bed.  There was a TV mounted to the wall.  When you stay at Tiny Estates, wi-fi and YouTube TV (check name) are included.  We thought about watching a movie, but decided to use the casting function from our phones.  We mostly watched our friend Cody Wanner, Jim Gaffigan, and John Crist.  All of the houses are on the same network, so I kept getting notifications when someone was casting YouTube in another home.
+This kitchen boasted a refrigerator, a propane oven with four ranges, and plenty of cabinet space.  The living area included a couch that can convert into a bed.  There was a TV mounted to the wall.  When you stay at Tiny Estates, wi-fi and YouTube TV are included.  We thought about watching a movie, but decided to use the casting function from our phones.  We mostly watched our friend Cody Wanner, Jim Gaffigan, and John Crist.  All of the houses are on the same network, so I kept getting notifications when someone was casting YouTube in another home.
 
 {% include insert-image-post.html url="/assets/images/blog/low-country-inside-1.JPG" description="inside of the Low Country tiny house, looking toward the bedroom" %}
 
@@ -45,7 +45,7 @@ There were some cool (but wide) wooden steps leading up to the main sleeping are
 
 After we checked in we made a soup.  Not having experience cooking with propane, there was a weird smell while the burners were on.  So we just had all the windows opened for ventilation.  The house also has a mini-split heat pump/air conditioner.  It took us awhile to figure out how to make the house less cold.
 
-After dinner, we walked around the grounds of Tiny Estates.  We got to see some really cool looking houses.  There are a few community/common areas.  They include fire pits, hot tubs, and party games, like cornhole and ladder golf.  There are long-term plans to add an event space and pool near the entrance.  During our walk, we saw the owners of Tiny Estates working on an old school bus.   
+After dinner, we walked around the grounds of Tiny Estates.  We got to see some really cool looking houses.  There are a few community/common areas.  They include fire pits, hot tubs, and party games, like cornhole and ladder golf.  There are long-term plans to add an event space and pool near the entrance.  During our walk, we saw some people working on an old school bus.   
 
 {% include insert-image-post.html url="/assets/images/blog/low-country-kitchen.JPG" description="the kitchen in the Low Country tiny house" %}
 
