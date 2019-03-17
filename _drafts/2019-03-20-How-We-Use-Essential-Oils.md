@@ -1,27 +1,25 @@
 ﻿---
 layout: post
 title:  How we use Essential Oils
-date:   2019-02-23
+date:   2019-03-20
 author: Kara McKinney
 page: post-single
 description: Different ways to use essential oils around the house for your family.
 featured-image: essential-oils-table.jpeg
 featured-image-alt: a cup of essential oils on a table with flowers
-categories: ['parenting']
+categories: ['parenting', 'chronicles']
 comments: true
 ---
 
 Not another essential oils promotion, you might be thinking. Well this really isn’t too much of one. My husband and I have a fairly balanced approach to oils, if I do say so myself. There are many claims of what essential oils can do and I believe that they do work for some. There are so many views and claims but we just want to explain how we use oils so as to give a different perspective on the whole conversation.
 
-  
-
 My husband and I fully believe in modern medicine and use it in our house often. I’m well aware of the polarizing viewpoints on these topics so before we move on let’s just agree that we all love our children and are doing the best we can for them.
+ 
+This being said we also love essential oils. We use them in our laundry, in diffusers around the house, and but them on our body for various reasons. 
 
-{% include insert-image-post.html url="./assets/images/blog/essential-oils-table.jpeg" description="a cup of essential oils on a table with flowers" %} 
+{% include insert-image-post.html url="/assets/images/blog/IMG_0817.JPG" description="a set of essential oils bottles on a shelf" %}
 
-This being said we also love essential oils. We use them in our laundry, in diffusers around the house, and but them on our body for various reasons. Here is a list of oils we love and how we use them most.
-
-  
+Here is a list of oils we love and how we use them most:
 
 1.  We love our house smelling like goodness, so instead of candles we diffuse oils. Typically we diffuse lavender at night right at bedtime. Downstairs during the day, we diffuse peppermint and orange mix. We figure if there are some minimal benefits happening then great but I don’t think either of us can actually tell the difference. We just like the smell.
     
@@ -37,9 +35,7 @@ This being said we also love essential oils. We use them in our laundry, in diff
     
 7.  We also use oils in other cleaning products around the house like a carpet deodorizer and our multi purpose cleaner.
 
-
-  
-  
+{% include insert-image-post.html url="/assets/images/blog/IMG_0812.JPG" description="an essential oil diffuser sitting on a fireplace mantle" %}
 
 As you can see, we like using essential oils, but we just don’t see the big claims in our house for medicinal purposes. We also really like Rocky Mountain Essential oils which are quality but also reasonably priced. Not promoting them or getting paid here just wanted to share our favorite brand. If you are curious and you haven’t tried them yet, its worth giving one or two kinds a try!
 
