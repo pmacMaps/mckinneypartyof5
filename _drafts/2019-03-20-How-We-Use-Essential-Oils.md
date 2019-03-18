@@ -17,7 +17,7 @@ My husband and I fully believe in modern medicine and use it in our house often.
  
 This being said we also love essential oils. We use them in our laundry, in diffusers around the house, and but them on our body for various reasons. 
 
-{% include insert-image-post.html url="/assets/images/blog/IMG_0817.JPG" description="a set of essential oils bottles on a shelf" %}
+{% include insert-image-post.html url="/assets/images/blog/rm-oils-bookshelf.JPG" description="a set of essential oils bottles on a shelf" %}
 
 Here is a list of oils we love and how we use them most:
 
@@ -35,7 +35,7 @@ Here is a list of oils we love and how we use them most:
     
 7.  We also use oils in other cleaning products around the house like a carpet deodorizer and our multi purpose cleaner.
 
-{% include insert-image-post.html url="/assets/images/blog/IMG_0812.JPG" description="an essential oil diffuser sitting on a fireplace mantle" %}
+{% include insert-image-post.html url="/assets/images/blog/diffuser-on-mantle.JPG" description="an essential oil diffuser sitting on a fireplace mantle" %}
 
 As you can see, we like using essential oils, but we just don’t see the big claims in our house for medicinal purposes. We also really like Rocky Mountain Essential oils which are quality but also reasonably priced. Not promoting them or getting paid here just wanted to share our favorite brand. If you are curious and you haven’t tried them yet, its worth giving one or two kinds a try!
 
