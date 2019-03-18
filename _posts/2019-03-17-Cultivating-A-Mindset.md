@@ -14,7 +14,7 @@ comments: true
 The week of March 10th has arrived which means that I am 10 weeks out from the Mt. Gretna triathlon. I’m really looking forward to pushing myself these next few weeks, physically of course, but also mentally. Pushing myself to stick to a commitment and building grit into my life. There are three points I’d like to share about how I am preparing for the next this season.
 
 
-###  1. The structure of my training.
+####  1. The structure of my training.
 
 
 
@@ -26,14 +26,14 @@ Since 6 days a week of working out is way out of the norm of my routine, I expec
 
 
 
-### 2. Show up even when I don’t want to.  
+#### 2. Show up even when I don’t want to.  
 
 
 This is a hard one for me to learn and where I think I will build the most grit in my life. I’ve listened to a bunch of habit making resources and all of them talk about showing up and just doing it even when you don’t feel like it. Working hard and showing up are the keys to success. Most days I will be ready to get into working out but on days I don’t feel like it, I’ve got to just put my head down and do something. Even if its something small. A large part of the reason I am tracking my journey through these next 10 weeks is a way to habit track and keep myself accountable. If I see myself getting up and working out everyday, hopefully it will motivate me to do it again. And be able to get in shape for this triathlon.  
 
 
 
-### 3. I’m going to fail sometimes and it's okay.  
+#### 3. I’m going to fail sometimes and it's okay.  
 
 
 Overall, I’m pretty happy with how I did with training for week 1. I was able to get a total of 6 workouts in although not quite how I had planned. I was a bit discouraged on Saturday because I missed my Friday work out, and didn’t swim in the pool on Saturday.  
@@ -42,7 +42,7 @@ However, I ended up watching a couple YouTube videos that were motivational. One
 
 It is important to be flexible with the weekly plan. Things come up and people need you. But bouncing back and working a new way around it, can be very valuable.  
 
-*Planned Workouts for the Week* and What I Actually Did  
+#### *Planned Workouts for the Week* and What I Actually Did  
 
 *Monday I will run on a treadmill. My workout will be 4x (run 7 min, walk 1 min).* I ended up only having a little under 30 min to workout today, so I did 3x (7 min run, 1 min walk). My right shoulder bothered me a bit during this run. My neck and back of my shoulder get tense and sore sometimes when I run. I probably should go to a chiropractor in order to straighten out a few of my physical issues when I work out.  
 
