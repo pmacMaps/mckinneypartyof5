@@ -251,9 +251,13 @@ button.close {
 
 /* Featured Posts on Homepage */
 .feat-posts .thumbnail {
-    min-height: 600px; 
+    min-height: 750px; 
 	border-color: #555;
 	padding: 15px;
+}
+
+.feat-posts .thumbnail div.text-center {
+	min-height: 125px;
 }
 
 .feat-posts .thumbnail h3 {
@@ -262,6 +266,10 @@ button.close {
 
 .feat-posts .thumbnail hr {
     border-top-color: #555;
+}
+
+.feat-posts .thumbnail img {
+	max-height: 200px;
 }
 
 body.about .page-content,
