@@ -251,10 +251,13 @@ button.close {
 }
 
 /* Featured Posts on Homepage */
-.feat-posts .thumbnail {
-    min-height: 600px; 
+.feat-posts .thumbnail {    
 	border-color: #555;
 	padding: 15px;
+}
+
+.feat-posts .thumbnail div.text-center {
+	min-height: 125px;
 }
 
 .feat-posts .thumbnail h3 {
@@ -263,6 +266,10 @@ button.close {
 
 .feat-posts .thumbnail hr {
     border-top-color: #555;
+}
+
+.feat-posts .thumbnail img {
+	max-height: 200px;
 }
 
 body.about .page-content,
@@ -336,7 +343,8 @@ body.post-single h1 {
 }
 
 body.post-single .post-content {
-	margin: 100px 0;
+	margin-top: 50px;
+	margin-bottom: 100px;		
 }
 
 /*** page-not-found Page ***/
@@ -514,6 +522,12 @@ body.page-not-found .page-content img {
 @media screen and (min-width: 992px) {
 	.home-intro h1 {
 		margin-top: -5px;
+	}
+	.feat-posts .thumbnail {
+    	min-height: 750px;
+	}
+	.feat-posts .thumbnail img {
+		max-height: 200px;
 	}
 }
 
