@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Beginners Guide to Cycling--Week 4 Workout Summary
 date: 2019-04-08
