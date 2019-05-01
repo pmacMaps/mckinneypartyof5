@@ -11,7 +11,8 @@ categories: [chronicles]
 comments: true
 ---
 
-I want to start by thanking my wonderful wife Kara for encouraging me to share a part of my life I prefer not to share with anyone.  And the few times I have shared it with people, it was only because of some prodding.  And even now, I wonder if I should even share this.   
+I want to start by thanking my wonderful wife Kara for encouraging me to share a part of my life I prefer not to share with anyone.  And the few times I have shared it with people, it was only because of some prodding.  And even now, I wonder if I should even share this.
+
 
 I have Tourettes.  There, I said it.  To be more specific, I have Tourette Syndrome, which the Pennsylvania Tourette Syndrome Alliance states is “an inherited, neurological disorder characterized by tics – involuntary, sudden movements, or vocalizations that occur repeatedly” ([reference page](http://www.patsainc.org/Tourettes-Info/Tourette-Syndrome-101.aspx)).  
 
