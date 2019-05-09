@@ -10,7 +10,7 @@ permalink: /category/social-work
 
 {% for post in site.posts %}
 	{% for category in post.categories %}
-		{% if category == 'social work' %}
+		{% if category == 'social-work' %}
 			{% include post-listing.html %}
 		{% endif %}
 	{% endfor %}
