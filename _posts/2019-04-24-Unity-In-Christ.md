@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  Unity In Christ
-date:   2019-04-xx
+date:   2019-04-24
 author: Kara McKinney
 page: post-single
-description: [1-2 sentence summary of article]
-featured-image: [image file name]
-featured-image-alt: [one sentence summary of image]
+description: Unity among believers was important to Jesus Christ.  Can we learn to love each other while holding different views on topics?  We need to remember that acceptance does not equal agreement.
+featured-image: unity.jpg
+featured-image-alt: people putting their hands together in a circle
 categories: [spirituality]
 comments: true
 ---
