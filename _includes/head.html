@@ -18,5 +18,7 @@
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:image" content="{% if page.featured-image %}{{ site.baseurl }}/assets/images/blog/{{ page.featured-image}}{% else %}{{ site.baseurl }}/assets/images/general/watercolor-stamen-map.jpeg{% endif %}" />
   <meta property="og:image:alt" content="{% if page.featured-image-alt %}{{ page.featured-image-alt }}{% else %}{{'a water color map of the Harrisburg,  Pennsylvania area'}}{% endif %}" />  
-  {% include analytics.html %}
+  {% if site.development == false %}
+    {% include analytics.html %}
+  {% endif %}
 </head>
