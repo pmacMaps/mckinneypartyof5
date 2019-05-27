@@ -14,23 +14,9 @@
         </div>
     </div>
 </footer>
+<script data-cfasync="false" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script data-cfasync="false" src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 {% if page.comments %}
-	<!-- Disqus -->
-	<script>
-		var disqus_config = function () {
-			this.page.url = "https://mckinneypartyof5.life{{ page.url }}";  
-			this.page.identifier = "{{ page.id }}"; 
-		};
-		(function() { // DON'T EDIT BELOW THIS LINE
-			var d = document, s = d.createElement('script');
-			s.src = 'https://mckinneypartyof5.disqus.com/embed.js';
-			s.setAttribute('data-timestamp', +new Date());			
-			d.body.appendChild(s);
-		})();
-	</script>
-    <!-- Twitter sharing -->
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-	<!-- Facebook sharing -->
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=262696897943170&autoLogAppEvents=1"></script>
+    {% include disqus-script.html %}
+    {% include social-sharing-script.html %}
 {% endif %}
