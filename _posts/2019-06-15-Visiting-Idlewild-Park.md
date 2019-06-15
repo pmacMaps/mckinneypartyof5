@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visting Idlewild Amusement Park
+title: Visiting Idlewild Amusement Park
 date: 2019-06-15
 author: Kara McKinney
 page: post-single
