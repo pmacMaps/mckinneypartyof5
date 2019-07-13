@@ -11,7 +11,7 @@ categories: [chronicles]
 comments: true
 ---
 
-Welcome back to the story of how I went from a music education major in college to working with maps and technology.  The previous article in this series left off with me deciding I did not want to teach in secondary education the semester before I was supposed to complete student teaching.
+Welcome back to the story of how I went from a music education major in college to working with maps and technology.  The [previous article]({{ site.url }}/2019/06/From-Music-To-Maps-Part-1) in this series left off with me deciding I did not want to teach in secondary education the semester before I was supposed to complete student teaching.
 
 As I wrote previously, many friends told me to just stick it out and get through student teaching.  But I knew I would not be able to make it through the semester.  My major was a Bachelor of Science in Earth Science Education.  The most logical major to switch to would have been a Bachelor of Science in Geology.  But there were still quite a few courses I needed to take.  And many of these were only offered once every two years.  I didn’t want to be in college for 7 years just to get a Bachelor's degree.  
 
@@ -38,3 +38,6 @@ The internship with Lancaster County ended in April.  After spending some time l
 As summer progressed, my hopes of getting a GIS job were starting to fade.  I worked at some restaurants just to make a little money.  And near the end of the summer, I would get as close as I was going to get to a full-time GIS job.  I had an interview with a local engineering company.  Out of a pool of seventy-seven candidates, I was one of four finalists for two positions.  I was heartbroken.  I wasn’t sure what to do next.  But it was clear a guy with an Earth Sciences degree wasn’t going to get a job in the GIS industry.  And I was starting to question my decision not to take that full-time job collecting soil samples.
 
 But soon, an unlikely opportunity with an unlikely probability opened up.  Some would call it luck; others that karma was in play.  But for me, it was a sign of God’s providence.  And that’s where we’ll pick up in Part 3 of this series.
+
+### Articles In Series
+[Part 1]({{ site.url }}/2019/06/From-Music-To-Maps-Part-1)

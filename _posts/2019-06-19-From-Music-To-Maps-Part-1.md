@@ -34,3 +34,6 @@ At this point, I was just one semester of student teaching away from graduating 
 The lesson here is that sometimes you need to take the advice from friends and persevere.  But sometimes you need to trust yourself and set their advice to the side.  And I’m so glad I went with my gut instinct.
 
 In part 2 of this series, I’ll pick up at my final semester of college.  It should be coming out in the next couple weeks.
+
+### Articles In Series
+[Part 2]({{ site.url }}/2019/07/From-Music-To-Maps-Part-2)
