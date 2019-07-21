@@ -235,7 +235,7 @@ button.close {
 .home-intro {
     padding-top: 250px;
     padding-bottom: 125px;	
-	background: url(../assets/images/general/watercolor-stamen-map.jpeg) top center fixed; 
+	  background: url(../assets/images/general/watercolor-stamen-map.jpeg) top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -376,7 +376,11 @@ body.page-not-found .page-content img {
 }
 
 @media screen and (max-width:768px) {
-	#mainNav {
+  .home-intro {
+    background: url(../assets/images/general/watercolor-stamen-map-small.jpeg) top center fixed;  
+  }  
+  
+  #mainNav {
 		padding: 15px 0;
 	}
 	
