@@ -17,7 +17,7 @@ I actually exceeded my expectation in terms of my times so I was pleasantly surp
 
 The last half of my training I lost a little bit of steam. I still worked out 5-6 times a week but I stopped tracking my trainings and reflecting on them. This was a hindrance in terms of getting the most out of my trainings. I lost the motivation to do this in part because of time and also my bike kept having different issues that frustrated me. So all this to say, I did the minimum training possible in order to finish the triathlon. This doesn’t sound very heroic, it’s just reality.
 
-{% include insert-image-post.html url="assets/images/blog/kara-bicycle-triathlon.jpg" description="kara riding a bicycle during a triathlon" %}
+{% include insert-image-post.html url="/assets/images/blog/kara-bicycle-triathlon.jpg" description="kara riding a bicycle during a triathlon" %}
 
 I had grit to work out till the race but I didn’t have grit to push it to the next level and keep up with an intense training. I guess I sound a bit hard on myself. As a friend pointed out, I did after all finish a sprint triathlon after pushing out three babies. I am proud of myself for accomplishing this triathlon but the athlete in me wonders how I could have done if I had just worked a little harder.
 
@@ -25,7 +25,7 @@ A few reflections on strategy. First, I need to work on my bike leg even more. W
 
 Second, my brain was still ready to go at the run but my body wasn’t gonna keep up with it. Longer practices that hit the bike with a follow up of a run are a must to improve my speed at the end of my race. My 5K time was 28 min with a split of 9:15 per mile. So I was just trying to finish.
 
-{% include insert-image-post.html url="assets/images/blog/kara-running-triathlon.jpg" description="kara running during a triathlon" %}
+{% include insert-image-post.html url="/assets/images/blog/kara-running-triathlon.jpg" description="kara running during a triathlon" %}
 
 I plan to do a triathlon in August now and since I did one, I am ready to train better and harder to improve my strategy even more.
 
