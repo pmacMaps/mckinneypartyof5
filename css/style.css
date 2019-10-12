@@ -40,15 +40,24 @@ h6 {
 hr {
     border-top-color: #999;
 }
-.navbar-custom li {
+.navbar-custom li,
+ul.navbar-nav > li > div.dropdown > button {
 	margin-left: 25px;
-    padding-top: 25px;
-	font-size: 1.5em;
 }
+.navbar-custom li {
+  padding-top: 25px;
+}
+ul.navbar-nav > li > div.dropdown > button {
+  padding-top: 5px;
+}
+.navbar-custom li,
+ul.navbar-nav > li > div.dropdown > button,
 .navbar-custom li a {
     font-size: 1.5em;
 }
-
+ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li {
+  font-size: 1.25em;
+}
 .navbar-custom a:focus {
   outline: none;
 }
@@ -64,7 +73,8 @@ hr {
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;  
 }
-.navbar-custom .navbar-nav li a {
+.navbar-custom .navbar-nav li a,
+ul.navbar-nav > li > div.dropdown > button {
   color: #E5DACA;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -92,6 +102,11 @@ hr {
   background-color: #373B3D;
   color: white;
   border-color: #373B3D;
+}
+/* navigation dropdown */
+ul.navbar-nav > li > div.dropdown > button.btn.btn-default {
+  background: inherit;
+  border-width: 0;
 }
 .floating-label-form-group {
   position: relative;
@@ -187,7 +202,9 @@ footer .footer-below {
     background: #317873;
 }
 
-.navbar-custom {  
+.navbar-custom,
+ul.navbar-nav > li > div.dropdown > button,
+ul.navbar-nav > li > div.dropdown > span.caret {  
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;  
   text-transform: capitalize;
   font-weight: 700;
@@ -195,6 +212,7 @@ footer .footer-below {
 }
 
 .navbar-custom .navbar-nav li a,
+ul.navbar-nav > li > div.dropdown > button,
 .navbar-custom .navbar-brand,
 .social-footer a {
     -webkit-transition: color 0.2s ease-in-out;
@@ -213,6 +231,7 @@ footer {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:focus,
+ul.navbar-nav > li > div.dropdown > button:hover,
 /* Social icons in footer */
 .social-footer a:hover,
 .social-footer a:focus,
@@ -394,8 +413,12 @@ body.page-not-found .page-content img {
 	
 	.navbar-custom .navbar-toggle {
 		font-size: 1.5em;
-	}	
-	
+  }	
+  
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+  }
+
 	/*.feat-posts .thumbnail*/
 	body.home .feat-posts .container .row .col-md-4 {
 		margin: 125px 0px;
