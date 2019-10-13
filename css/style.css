@@ -4,10 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Scope One', serif;  
-  overflow-x: hidden;
-  color: #000;
+  font-family: 'Scope One', serif;
+  overflow-x: hidden;  
   line-height: 1.5;
+}
+body,
+ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li > a {
+  color: #000;
 }
 p {
   font-size: 1.25em;
@@ -40,6 +43,9 @@ h6 {
 hr {
     border-top-color: #999;
 }
+.dropdown-menu {
+  border-color: #333;
+}
 .navbar-custom li,
 ul.navbar-nav > li > div.dropdown > button {
 	margin-left: 25px;
@@ -56,7 +62,7 @@ ul.navbar-nav > li > div.dropdown > button,
     font-size: 1.5em;
 }
 ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li {
-  font-size: 1.25em;
+  font-size: 1.05em;
 }
 .navbar-custom a:focus {
   outline: none;
@@ -197,6 +203,16 @@ footer .footer-below {
 }
 
 /*** Header & Footer ***/
+.navbar-fixed-top .navbar-collapse {
+  max-height: 500px;
+}
+
+span.caret {
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 9px solid #fff;
+}
+
 .navbar-custom,
 footer .footer-below {
     background: #317873;
@@ -204,10 +220,16 @@ footer .footer-below {
 
 .navbar-custom,
 ul.navbar-nav > li > div.dropdown > button,
-ul.navbar-nav > li > div.dropdown > span.caret {  
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;  
-  text-transform: capitalize;
+ul.navbar-nav > li > div.dropdown > span.caret {
   font-weight: 700;
+}
+
+.navbar-custom,
+ul.navbar-nav > li > div.dropdown > button,
+ul.navbar-nav > li > div.dropdown > span.caret,
+ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li > a {  
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;  
+  text-transform: capitalize;  
   border: none;
 }
 
@@ -221,6 +243,13 @@ ul.navbar-nav > li > div.dropdown > button,
     transition: color 0.2s ease-in-out;
 }
 
+ul.navbar-nav > li > div.dropdown > button > span.caret {
+  -webkit-transition: border-top-color 0.2s ease-in-out;
+  -moz-transition: border-top-color 0.2s ease-in-out;
+  -o-transition: border-top-color 0.2s ease-in-out;
+  transition: border-top-color 0.2s ease-in-out;
+}
+
 .navbar-custom .navbar-brand,
 .social-footer a,
 footer {
@@ -232,6 +261,8 @@ footer {
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:focus,
 ul.navbar-nav > li > div.dropdown > button:hover,
+ul.navbar-nav > li > div.dropdown > button:active,
+ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li > a:hover,
 /* Social icons in footer */
 .social-footer a:hover,
 .social-footer a:focus,
@@ -239,6 +270,20 @@ footer a,
 footer a:hover,
 footer a:focus {
     color: #FCC100;
+}
+
+ul.navbar-nav > li > div.dropdown > button:hover > span.caret,
+ul.navbar-nav > li > div.dropdown > button:active > span.caret {
+  border-top-color: #FCC100;
+}
+
+ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li {
+  padding-top: 0px;
+  margin: 5px 0;
+}
+
+ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li > a:hover {
+  background-color: #fff;
 }
 
 .navbar-brand img {
