@@ -80,7 +80,8 @@ ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li {
   letter-spacing: 1px;  
 }
 .navbar-custom .navbar-nav li a,
-ul.navbar-nav > li > div.dropdown > button {
+ul.navbar-nav > li > div.dropdown > button,
+#mainNav .open > .dropdown-toggle.btn-default {
   color: #E5DACA;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -210,7 +211,7 @@ footer .footer-below {
 span.caret {
     border-left: 9px solid transparent;
     border-right: 9px solid transparent;
-    border-top: 9px solid #fff;
+    border-top: 9px solid #E5DACA;
 }
 
 .navbar-custom,
@@ -262,6 +263,8 @@ footer {
 .navbar-custom .navbar-nav li a:focus,
 ul.navbar-nav > li > div.dropdown > button:hover,
 ul.navbar-nav > li > div.dropdown > button:active,
+#mainNav .open > .dropdown-toggle.btn-default:focus, 
+#mainNav .open > .dropdown-toggle.btn-default:hover,
 ul.navbar-nav > li > div.dropdown > ul.dropdown-menu > li > a:hover,
 /* Social icons in footer */
 .social-footer a:hover,
@@ -273,7 +276,9 @@ footer a:focus {
 }
 
 ul.navbar-nav > li > div.dropdown > button:hover > span.caret,
-ul.navbar-nav > li > div.dropdown > button:active > span.caret {
+ul.navbar-nav > li > div.dropdown > button:active > span.caret,
+#mainNav .open > .dropdown-toggle.btn-default:focus span.caret, 
+#mainNav .open > .dropdown-toggle.btn-default:hover span.caret {
   border-top-color: #FCC100;
 }
 
@@ -462,6 +467,10 @@ body.page-not-found .page-content img {
   
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #fff;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #FCC100;
   }
 
 	/*.feat-posts .thumbnail*/
