@@ -40,4 +40,8 @@ As summer progressed, my hopes of getting a GIS job were starting to fade.  I wo
 But soon, an unlikely opportunity with an unlikely probability opened up.  Some would call it luck; others that karma was in play.  But for me, it was a sign of God’s providence.  And that’s where we’ll pick up in Part 3 of this series.
 
 ### Articles In Series
-[Part 1]({{ site.url }}2019/06/From-Music-To-Maps-Part-1)
+[Part 1]({{ site.url }}/2019/06/From-Music-To-Maps-Part-1)
+<br />
+[Part 3]({{ site.url }}/2019/08/From-Music-To-Maps-Part-3)
+<br />
+[Part 4]({{ site.url }}/2019/12/From-Music-To-Maps-Part-4)

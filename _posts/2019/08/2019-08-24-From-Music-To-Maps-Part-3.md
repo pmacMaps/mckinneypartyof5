@@ -41,6 +41,8 @@ In March or April, I had a phone interview for an internship with Lancaster Coun
 
 ### Articles In Series
 
-[Part 1]({{ site.url }}2019/06/From-Music-To-Maps-Part-1)
+[Part 1]({{ site.url }}/2019/06/From-Music-To-Maps-Part-1)
 <br />
-[Part 2]({{ site.url }}2019/07/From-Music-To-Maps-Part-2)
+[Part 2]({{ site.url }}/2019/07/From-Music-To-Maps-Part-2)
+<br />
+[Part 4]({{ site.url }}/2019/12/From-Music-To-Maps-Part-4)

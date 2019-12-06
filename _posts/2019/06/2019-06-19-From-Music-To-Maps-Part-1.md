@@ -36,4 +36,8 @@ The lesson here is that sometimes you need to take the advice from friends and p
 In part 2 of this series, I’ll pick up at my final semester of college.  It should be coming out in the next couple weeks.
 
 ### Articles In Series
-[Part 2]({{ site.url }}2019/07/From-Music-To-Maps-Part-2)
+[Part 2]({{ site.url }}/2019/07/From-Music-To-Maps-Part-2)
+<br />
+[Part 3]({{ site.url }}/2019/08/From-Music-To-Maps-Part-3)
+<br />
+[Part 4]({{ site.url }}/2019/12/From-Music-To-Maps-Part-4)
