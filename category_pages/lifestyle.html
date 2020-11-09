@@ -1,0 +1,17 @@
+---
+layout: page
+title: Lifestyle Category Archives
+page: archive
+description: A listing of blog posts for the Lifestyle Category
+permalink: /category/lifestyle
+---
+
+<h1 class="text-center">Articles posted under Lifestyle</h1>
+
+{% for post in site.posts %}
+	{% for category in post.categories %}
+		{% if category == 'lifestyle' %}
+			{% include post-listing.html %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}    
